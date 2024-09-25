@@ -1,4 +1,4 @@
-# Coding Assignment 1: Floating Point Arithmetic
+# Programming Assignment 1: Floating Point Arithmetic
 
 Problems can be found on Canvas.
 
