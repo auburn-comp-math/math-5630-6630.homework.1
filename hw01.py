@@ -95,7 +95,7 @@ def p4(a):
     single_a = a.astype(np.float32) # Convert the input array to single precision
     s = p3(a) # Kahan sum of double precision as the ground truth
     single_kahan_s = p3(single_a) # Kahan sum of single precision
-    single_naive_s = sum(single_a) # Naive sum of single precision
+    single_naive_s = np.sum(single_a) # Naive sum of single precision
 
     print(f"Error of Kahan sum under single precision: {s - single_kahan_s}")
     print(f"Error of Naive sum under single precision: {s - single_naive_s}")
