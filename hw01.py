@@ -9,16 +9,16 @@ def p1():
     """
     This function only contains comments. Fill the following table. Do not write any code here.
 
-    commands                                      |  results            | explanations
-    ----------------------------------------------|---------------------|----------------
-    import sys;sys.float_info.epsilon             |                     |
-    import sys;sys.float_info.max                 |                     |
-    import sys;sys.float_info.min                 |                     |
-    import sys;1 + sys.float_info.epsilon - 1     |                     |
-    import sys;1 + sys.float_info.epsilon /2 - 1  |                     |
-    import sys;sys.float_info.min/1e10            |                     |
-    import sys;sys.float_info.min/1e16            |                     |
-    import sys;sys.float_info.max*10              |                     |
+    commands                                             |  results            | explanations
+    -----------------------------------------------------|---------------------|----------------
+    import sys;print(sys.float_info.epsilon)             |                     |
+    import sys;print(sys.float_info.max)                 |                     |
+    import sys;print(sys.float_info.min)                 |                     |
+    import sys;print(1 + sys.float_info.epsilon - 1)     |                     |
+    import sys;print(1 + sys.float_info.epsilon /2 - 1)  |                     |
+    import sys;print(sys.float_info.min/1e10)            |                     |
+    import sys;print(sys.float_info.min/1e16)            |                     |
+    import sys;print(sys.float_info.max*10)              |                     |
     """
 
 def p2(n, choice):
